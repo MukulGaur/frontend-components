@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <div id="top-btns" class="btn-grp">
+                    <button class="top-btn selected" id="login-btn" >Login</button>
+                    <button class="top-btn" id="sign-up">Sign Up</button>
+                </div>
+                <div id="reset-btns" class="btn-grp hide">
+                    <button class="top-btn selected" id="reset-btn" >Reset Password</button>
+                    <button class="top-btn" id="back-btn">Back</button>
+                </div>
+                <form>
+                    <div class="inputContainer hide" id="name">
+                        <input type="text" name="name" required autocomplete="off">
+                        <label>fullname</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="email" name="email" required autocomplete="off">
+                        <label>email</label>
+                    </div>
+                    <div class="inputContainer" id="passwd">
+                        <input type="password" name="password" required autocomplete="off">
+                        <label>password</label>
+                    </div>
+                    <div class="inputContainer hide" id="re-pass">
+                        <input type="password" name="password" required autocomplete="off">
+                        <label>confirm password</label>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" name="submit"/>
+                    </div>
+                    <div class="forget-pass">
+                        <p id="forget-pass">FORGET YOUR PASSWORD?</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
