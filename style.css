@@ -45,6 +45,7 @@
     font-size: 1.2rem;
     color: white;
     padding: 0.5rem;
+    transition: linear 1s;
 }
 
 .selected{
