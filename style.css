@@ -45,7 +45,9 @@
     font-size: 1.2rem;
     color: white;
     padding: 0.5rem;
-    transition: linear 1s;
+}
+.top-btn:hover{
+    transition: width 2s, height 4s;
 }
 
 .selected{
